@@ -6,8 +6,8 @@ public class TipoString {
         //Algumas funcionalidades do tipo String em JAVA
 
         String s = "Boa noite";
-        System.out.println(s.concat("!!!")); // metodo concat() concatena uma String em outa String
-        System.out.println(s + "!!!"); // Concatenando com "+" tem o mesmo efeito de usar o metodo concat()
+        System.out.println(s.concat("!!")); // metodo concat() concatena uma String em outa String
+        System.out.println(s + "!!"); // Concatenando com "+" tem o mesmo efeito de usar o metodo concat()
         System.out.println(s.startsWith("Boa")); // startWith() checa se a String começa com Boa ou não e retorna um boolean
         System.out.println(s.toLowerCase().startsWith("boa")); // toLowerCase() deixa o conteudo da String minusculo
         System.out.println(s.toUpperCase().endsWith("TARDE")); // toUpperCase() deixa o conteudo da SDtring maiuculo e endWith checa se a String termina com TARDE e retorna um bolean
