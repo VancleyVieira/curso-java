@@ -29,5 +29,10 @@ public class TipoString {
 
         // Ou podemos usar o "printf" PARECIDO COM C
         System.out.printf("O senhor %s %s tem %s anos e ganha R$%.2f.", nome, sobrenome, idade, salario);
+
+        System.out.println("Frase qualquer".contains("qual")); // contains() checa se na String há o trecho passado no parametro do metodo
+        System.out.println("Frase qualquer".indexOf("qual")); // indexOf() retorna um int de qual posição a String do parametro começa na String a ser analisada
+        System.out.println("Frase qualquer".substring(6)); // substring() retorna a frase a partir da posição passada no parametro
+        System.out.println("Frase qualquer".substring(6, 10)); // substring(x , y) delimita o trecho da String retornando só o que estiver no intervalo passado em parametro
     }
 }
