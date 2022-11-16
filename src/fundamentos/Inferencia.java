@@ -1,6 +1,6 @@
 package fundamentos;
 
-public class inferencia {
+public class Inferencia {
     //Testando como JAVA trata as inferencias
     public static void main(String[] args) {
 
@@ -19,7 +19,7 @@ public class inferencia {
         System.out.println(b);
 
         //b = 10; NÃO COMPILA
-        
+
         // Uma variavel em JAVA nasce de um tipo e morre com mesmo tipo que nasceu pois é uma linguagem fortemente tipada
     }
 
