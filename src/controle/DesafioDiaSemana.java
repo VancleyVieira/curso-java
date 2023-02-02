@@ -12,7 +12,7 @@ public class DesafioDiaSemana {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.printf("Digite um dia da semana: ");
+        System.out.print("Digite um dia da semana: ");
         String diaSemana = entrada.next();
 
         if (diaSemana.equals("Domingo") || diaSemana.equals("domingo")) {
