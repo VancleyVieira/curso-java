@@ -10,7 +10,7 @@ public class DesafioWhile {
         double nota = 0;
         double total = 0;
         int qtdNotas = 0;
-        
+
         do {
             System.out.print("Digite uma nota (ou -1 para sair): ");
             nota = entrada.nextDouble();
