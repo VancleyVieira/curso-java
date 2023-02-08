@@ -2,6 +2,10 @@ package controle.desafioDoModulo;
 
 import java.util.Scanner;
 
+/*
+    * 1. Criar um programa que receba um número e verifique se ele está entre 0 e 10 e é par;
+*/
+
 public class Exercicio1 {
     public static void main(String[] args) {
 
