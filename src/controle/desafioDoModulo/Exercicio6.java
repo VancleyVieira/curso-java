@@ -17,7 +17,7 @@ public class Exercicio6 {
 
         Random random = new Random();
 
-        int numeroAleatorio = random.nextInt(100); // gera um numero aleatorio entreo 0 e 100
+        int numeroAleatorio = random.nextInt(101); // gera um numero aleatorio entreo 0 e 100
 
         int tentativasRestantes = 10;
 
