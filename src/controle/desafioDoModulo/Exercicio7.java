@@ -13,28 +13,19 @@ public class Exercicio7 {
 
         Scanner entrada = new Scanner(System.in);
 
-        int i = 0;
+        int somaDosNumeros = 0;
+        int numeros = 0;
+
         do {
+            System.out.print("\nDigite um numero POSITIVO (ou negativo se deseja sair): ");
+            numeros = entrada.nextInt();
 
-            System.out.println("Digite um numero: ");
-            int numeros = entrada.nextInt();
-
-            int somaDosNumeros = 0;
-            if(numeros > 0) {
-                somaDosNumeros = somaDosNumeros = numeros;
-            } else {
-
-                if (numeros < 0) {
-                    System.out.printf("A soma dos numeros inseridos sao: %d", somaDosNumeros);
-                    break;
-                }
+            if(numeros >= 0) {
+                somaDosNumeros += numeros;
+                System.out.printf("\nA soma dos numeros inseridos sao: %d", somaDosNumeros);
             }
 
-            i++;
-        }while (i > 0);
-
-
-
+        }while (numeros >= 0);
         entrada.close();
     }
 }
