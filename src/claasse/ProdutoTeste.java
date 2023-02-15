@@ -14,15 +14,10 @@ public class ProdutoTeste {
         p2.desconto = 0.29;
 
         System.out.println(p1.nome);
-        System.out.println(p1.preco);
-        System.out.println(p1.desconto);
-
         System.out.println(p2.nome);
-        System.out.println(p2.preco);
-        System.out.println(p2.desconto);
 
-        double precoFinal1 = p1.preco * (1 - p1.desconto);
-        double precoFinal2 = p2.preco * (1 - p2.desconto);
+        double precoFinal1 = p1.precoDesconto();
+        double precoFinal2 = p2.precoDesconto(0.1);
         double mediaCarrinho = ((precoFinal1 + precoFinal2) / 2);
 
         System.out.printf("Media do carrinho = R$%.2f.", mediaCarrinho);
