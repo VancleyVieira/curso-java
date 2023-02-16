@@ -6,6 +6,18 @@ public class Produto {
     double preco;
     double desconto;
 
+    // construtor padrão
+    Produto() {
+
+    }
+
+    // construtor
+    Produto(String nomeInicial, double precoInicial, double descontoInicial) {
+        nome = nomeInicial;
+        preco = precoInicial;
+        desconto = descontoInicial;
+    }
+
     // Assinatura do metodo = "precoDesconto()"
     double precoDesconto() {
         return preco * (1 - desconto);
