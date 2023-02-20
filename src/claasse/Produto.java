@@ -4,7 +4,7 @@ public class Produto {
 
     String nome;
     double preco;
-    double desconto;
+    static double desconto;
 
     // construtor padrão
     Produto() {
@@ -12,10 +12,9 @@ public class Produto {
     }
 
     // construtor
-    Produto(String nomeInicial, double precoInicial, double descontoInicial) {
+    Produto(String nomeInicial, double precoInicial) {
         nome = nomeInicial;
         preco = precoInicial;
-        desconto = descontoInicial;
     }
 
     // Assinatura do metodo = "precoDesconto()"
