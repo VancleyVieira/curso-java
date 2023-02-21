@@ -1,4 +1,6 @@
-package claasse.desafioData;
+package claasse;
+
+import claasse.Data;
 
 public class DataTeste {
     public static void main(String[] args) {

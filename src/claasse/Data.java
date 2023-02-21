@@ -1,4 +1,4 @@
-package claasse.desafioData;
+package claasse;
 
 public class Data {
 
