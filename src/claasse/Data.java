@@ -8,6 +8,7 @@ package claasse;
 
 public class Data {
 
+    // Variaveis de instancia ou de objetos
     int dia;
     int mes;
     int ano;
@@ -26,7 +27,8 @@ public class Data {
     }
 
     String obterDataFormatada() {
-        return dia + "/" + mes + "/" + ano;
+        final String formato = "%d/%d/%d";
+        return String.format(formato, dia, mes, ano);
     }
 
     void imprimirDataFormatada() {
