@@ -14,7 +14,7 @@ public class DataTeste {
 //        data2.mes = 7;
 //        data2.ano = 2005;
 
-        System.out.println(data1.obterDataFormatada());
-        System.out.println(data2.obterDataFormatada());
+        data1.imprimirDataFormatada();
+        data2.imprimirDataFormatada();
     }
 }
