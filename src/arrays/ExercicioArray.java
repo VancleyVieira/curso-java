@@ -24,5 +24,7 @@ public class ExercicioArray {
             somaNotas += notaInformada;
         }
         System.out.println("Media das notas: " + somaNotas / notas.length);
+
+        entrada.close();
     }
 }
