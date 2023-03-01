@@ -20,7 +20,7 @@ public class Lista {
 
         System.out.println(">>>>> " + lista.remove(1)); // Removendo pelo indice ele retorna o objeto que foi removido
         System.out.println(lista.remove(new Usuario("Manu"))); // retorna TRUE se foi removido ou FALSE se não foi removido
-        
+
         System.out.println("TEM? " + lista.contains(new Usuario("Lia"))); // contains checa se tem determinado objeto dentro da lista
         System.out.println("TEM? " + lista.contains(u1));
 
