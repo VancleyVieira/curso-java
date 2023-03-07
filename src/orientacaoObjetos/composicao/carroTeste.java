@@ -3,7 +3,8 @@ package orientacaoObjetos.composicao;
 public class carroTeste {
 
     public static void main(String[] args) {
-
+        // Relacao UM para UM
+        
         Carro c1 = new Carro();
         System.out.println(c1.estaLigado());
 
