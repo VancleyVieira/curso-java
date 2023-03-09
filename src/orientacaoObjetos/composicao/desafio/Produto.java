@@ -3,7 +3,11 @@ package orientacaoObjetos.composicao.desafio;
 
 public class Produto {
 
-    double preco;
-    String nome;
+    final double preco;
+    final String nome;
 
+    Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
 }
