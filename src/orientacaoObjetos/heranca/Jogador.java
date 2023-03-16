@@ -1,7 +1,5 @@
 package orientacaoObjetos.heranca;
 
-import controle.Break;
-
 public class Jogador {
 
     int vida = 100;
