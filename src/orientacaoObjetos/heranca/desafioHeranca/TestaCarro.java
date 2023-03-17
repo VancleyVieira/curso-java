@@ -4,11 +4,22 @@ public class TestaCarro {
     public static void main(String[] args) {
 
         Ferrai ferrai = new Ferrai();
-        ferrai.velocidade = 50;
-        ferrai.getAcelerar();
+        ferrai.velocidade = 0;
+
 
         Fusca fusca = new Fusca();
-        fusca.velocidade = 50;
+        fusca.velocidade = 0;
+
+        ferrai.getAcelerar();
+        ferrai.getAcelerar();
+        ferrai.getAcelerar();
+        ferrai.getAcelerar();
+        ferrai.getAcelerar();
+
+        fusca.getAcelerar();
+        fusca.getAcelerar();
+        fusca.getAcelerar();
+        fusca.getAcelerar();
         fusca.getAcelerar();
 
         System.out.println("Velocidade Ferrari: " + ferrai.velocidade);
