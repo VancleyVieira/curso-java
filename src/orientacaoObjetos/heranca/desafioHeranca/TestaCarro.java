@@ -33,6 +33,7 @@ public class TestaCarro {
         fusca.getFrear();
         fusca.getFrear();
         fusca.getFrear();
+        fusca.getFrear();
 
         System.out.println("Velocidade Ferrari: " + ferrai.velocidade);
         System.out.println("Velocidade Fusca: " + fusca.velocidade);
