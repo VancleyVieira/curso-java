@@ -2,16 +2,27 @@ package orientacaoObjetos.heranca.desafioHeranca;
 
 public class Carro {
 
-    public int velocidade;
+    final int VELOCIDADE_MAXIMA;
+    public int velocidadeAtual;
+    int delta = 5;
+
+    Carro(int velocidadeMaxima) {
+        VELOCIDADE_MAXIMA = velocidadeMaxima;
+    }
 
     void getAcelerar() {
-        this.velocidade += 5;
-    }
-    void getFrear() {
-        if(velocidade <= 0) {
-            this.velocidade = 0;
+        if (velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+            velocidadeAtual = VELOCIDADE_MAXIMA;
         } else {
-            this.velocidade -= 5;
+            this.velocidadeAtual += delta;
+        }
+    }
+
+    void getFrear() {
+        if(velocidadeAtual <= 0) {
+            this.velocidadeAtual = 0;
+        } else {
+            this.velocidadeAtual -= 5;
         }
     }
 
