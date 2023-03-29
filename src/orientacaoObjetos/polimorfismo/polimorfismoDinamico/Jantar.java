@@ -1,4 +1,4 @@
-package orientacaoObjetos.polimorfismo;
+package orientacaoObjetos.polimorfismo.polimorfismoDinamico;
 
 public class Jantar {
     public static void main(String[] args) {

@@ -1,10 +1,10 @@
-package orientacaoObjetos.polimorfismo;
+package orientacaoObjetos.polimorfismo.polimorfismoDinamico;
 
-public class Feijao {
+public class Comida {
 
     private double peso;
 
-    public Feijao(double peso) {
+    public Comida(double peso) {
         setPeso(peso);
     }
 
