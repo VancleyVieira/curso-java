@@ -1,4 +1,8 @@
-package orientacaoObjetos.heranca;
+package orientacaoObjetos.heranca.teste;
+
+import orientacaoObjetos.heranca.Direcao;
+import orientacaoObjetos.heranca.Heroi;
+import orientacaoObjetos.heranca.Monstro;
 
 public class Jogo {
     public static void main(String[] args) {
