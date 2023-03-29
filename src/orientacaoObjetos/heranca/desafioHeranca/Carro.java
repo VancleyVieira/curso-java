@@ -3,7 +3,7 @@ package orientacaoObjetos.heranca.desafioHeranca;
 public class Carro {
 
     public final int VELOCIDADE_MAXIMA;
-    protected int velocidadeAtual;
+    public int velocidadeAtual;
     protected int delta = 5;
 
     protected Carro(int velocidadeMaxima) {
