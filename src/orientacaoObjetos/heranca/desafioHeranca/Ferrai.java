@@ -2,16 +2,16 @@ package orientacaoObjetos.heranca.desafioHeranca;
 
 public class Ferrai extends Carro {
 
-    Ferrai() {
+    public Ferrai() {
         this(315);
     }
 
-    Ferrai(int velocidadeMaxima) {
+    public Ferrai(int velocidadeMaxima) {
         super(velocidadeMaxima);
         delta = 15;
     }
 
-//    void getAcelerar() {
+//    public void getAcelerar() {
 //        velocidadeAtual += 15;
 //    }
 }
