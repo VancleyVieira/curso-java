@@ -1,44 +1,49 @@
 package orientacaoObjetos.heranca.teste;
 
-import orientacaoObjetos.heranca.desafioHeranca.Ferrai;
+import orientacaoObjetos.heranca.desafioHeranca.Ferrari;
 import orientacaoObjetos.heranca.desafioHeranca.Fusca;
 
 public class TestaCarro {
     public static void main(String[] args) {
 
-        Ferrai ferrai = new Ferrai();
-        ferrai.velocidadeAtual = 0;
+        Ferrari ferrari = new Ferrari();
+        ferrari.velocidadeAtual = 0;
+
+        ferrari.getAcelerar();
+
+        System.out.println("Velocidade Ferrari: " + ferrari.velocidadeAtual);
+
+        ferrari.ligarAr();
+        ferrari.ligarTurbo();
+        ferrari.getAcelerar();
+
+        ferrari.desligarAr();
+        ferrari.getAcelerar();
+
+        System.out.println("Velocidade Ferrari: " + ferrari.velocidadeAtual);
+
+        ferrari.getFrear();
+        ferrari.getFrear();
+
+        System.out.println("Velocidade Ferrari: " + ferrari.velocidadeAtual);
 
 
         Fusca fusca = new Fusca();
         fusca.velocidadeAtual = 0;
 
-        ferrai.getAcelerar();
-        ferrai.getAcelerar();
-        ferrai.getAcelerar();
-        ferrai.getAcelerar();
-        ferrai.getAcelerar();
-
         fusca.getAcelerar();
         fusca.getAcelerar();
         fusca.getAcelerar();
         fusca.getAcelerar();
         fusca.getAcelerar();
 
-        System.out.println("Velocidade Ferrari: " + ferrai.velocidadeAtual);
         System.out.println("Velocidade Fusca: " + fusca.velocidadeAtual);
 
-        ferrai.getFrear();
-        ferrai.getFrear();
-
-        fusca.getFrear();
-        fusca.getFrear();
         fusca.getFrear();
         fusca.getFrear();
         fusca.getFrear();
         fusca.getFrear();
 
-        System.out.println("Velocidade Ferrari: " + ferrai.velocidadeAtual);
         System.out.println("Velocidade Fusca: " + fusca.velocidadeAtual);
 
     }
