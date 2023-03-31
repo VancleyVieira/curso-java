@@ -8,4 +8,10 @@ public interface Luxo {
 
     public abstract void ligarAr(); // redundante
     void desligarAr();
+
+    // implementacao padrao nas interfaces podemos criar um metodo default
+    // Dessa forma as classes que extenderem a interface nao necessariamente sao obrigadas a implementarem o metodo
+    default int velocidadeDoAr() {
+        return 1;
+    }
 }

@@ -12,6 +12,7 @@ public class TestaCarro {
         ferrari.getAcelerar();
 
         System.out.println("Velocidade Ferrari: " + ferrari.velocidadeAtual);
+        System.out.println(ferrari.velocidadeDoAr());
 
         ferrari.ligarAr();
         ferrari.ligarTurbo();
