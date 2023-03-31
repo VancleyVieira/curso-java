@@ -1,6 +1,6 @@
 package orientacaoObjetos.polimorfismo.polimorfismoDinamico;
 
-public class Comida {
+public abstract class Comida {
 
     // polimorfismo dinamico consiste em criar uma classe mais generica
     // quando temos duas ou mais classes com os mesmos metodos e atributos
