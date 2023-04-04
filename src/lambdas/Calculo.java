@@ -7,11 +7,11 @@ public interface Calculo { // Uma interface Funcional pode ter apenas um metodo 
 
     // metodos default e staticos são uma excecão dessa regra
 
-//    default String legal() {
-//        return "Legal";
-//    }
-//
-//    static String muitoLegal() {
-//        return "Muito Legal";
-//    }
+    default String legal() {
+        return "Legal";
+    }
+
+    static String muitoLegal() {
+        return "Muito Legal";
+    }
 }
